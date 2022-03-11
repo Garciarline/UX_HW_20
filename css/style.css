@@ -187,7 +187,12 @@ background-color:#e9e9e9;
 border: ridge;
 row-gap: 50px;
 }
-
+.meetTheTeam{
+  display: flex;
+  flex-direction: row;
+  
+  
+}
 .bottom{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
@@ -201,6 +206,9 @@ row-gap: 50px;
 .callToAction{
   display: flex;
   padding-bottom: 60px;
+}
+.footer{
+  background-color: green;
 }
 
 .footerLinks{
