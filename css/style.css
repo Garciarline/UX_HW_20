@@ -165,7 +165,7 @@ max-height: 400px;
 }
 */
 
-.reviews{
+/*#reviews{
 display: flex;
 flex-direction: row;
 padding-left: 15%;
@@ -173,7 +173,7 @@ padding-top: 5%;
 justify-content: space-between;
 
 }
-/* why won't they space properly like in .galleryImages?*/
+/* why won't they space properly like in .galleryImages?
 .quotes{
 display: flex;
 flex-direction: column;
@@ -186,6 +186,42 @@ justify-content: center;
 background-color:#e9e9e9;
 border: ridge;
 row-gap: 50px;
+}*/
+
+.reviews {
+  background: #e9e9e9;
+  margin: 100px;
+  text-align: center;
+ }
+ .reviews .card-container {
+  border: none;
+  -webkit-box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+          box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+  padding-bottom: 25px;
+}
+.reviews .row{
+  row-gap: 50px;
+}
+/*.reviews p{
+  text-align: center;
+  margin-bottom: 15px;
+}
+.reviews .btn{
+  animation: none;
+  display: inline-block;
+  position: relative;
+  font-size: 17px;
+  padding: 8px;
+  width: 8rem;
+  animation: none;
+}*/
+.reviews p {
+  text-align: center;
+  font-size: 16px;
+  color: #222;
+  line-height: 1.5;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .team {
   background: #e9e9e9;
