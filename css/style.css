@@ -188,19 +188,22 @@ border: ridge;
 row-gap: 50px;
 }*/
 
-.reviews {
-  background: #e9e9e9;
+#reviews {
+  background:#e9e9e9;
   margin: 100px;
   text-align: center;
  }
- .reviews .card-container {
+ #reviews .card-container {
   border: none;
   -webkit-box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
           box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
   padding-bottom: 25px;
 }
-.reviews .row{
+#reviews .row{
   row-gap: 50px;
+}
+.name{
+  font-weight: bold;
 }
 /*.reviews p{
   text-align: center;
@@ -215,7 +218,7 @@ row-gap: 50px;
   width: 8rem;
   animation: none;
 }*/
-.reviews p {
+#reviews p {
   text-align: center;
   font-size: 16px;
   color: #222;
