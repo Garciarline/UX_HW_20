@@ -316,15 +316,15 @@ background-color: rgb(156, 196, 150);
 
 .footerLinks{
 background-color: rgb(4, 54, 4);
-font-family: sans-serif;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: medium;
-font-variant: small-caps;
+
 display: flex;
 flex-direction: row;
 justify-content: space-around;
 padding: 5%;
 border: ridge;
-color: lavenderblush;
+color: rgb(195, 245, 190);
 /*make linkedIn an icon?*/
 
 }
