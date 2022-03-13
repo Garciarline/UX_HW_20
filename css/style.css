@@ -312,12 +312,10 @@ background-color: rgb(156, 196, 150);
   padding-bottom: 100px;
 }
 
-.footer{
-  background-color: green;
-}
+
 
 .footerLinks{
-background-color: darkgrey;
+background-color: rgb(4, 54, 4);
 font-family: sans-serif;
 font-size: medium;
 font-variant: small-caps;
@@ -326,6 +324,7 @@ flex-direction: row;
 justify-content: space-around;
 padding: 5%;
 border: ridge;
+color: lavenderblush;
 /*make linkedIn an icon?*/
 
 }
