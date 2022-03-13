@@ -1,5 +1,11 @@
 console.log("your page is loading")
 
-<gallery onscroll="animate()"
+$( "#button" ). delay(function() {
+    $( "#button" ).grow({
+     width: "300px",
+     height: "300px", 
+      }, 1500 );
+  });
+  
 
   
